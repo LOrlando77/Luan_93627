@@ -1,0 +1,40 @@
+nav{
+
+   background-color: yellow;
+   border-bottom: 50px;
+
+}
+
+ul{
+display: flex;
+margin-bottom: 200px;
+padding-left: 600px;
+
+}
+
+li{
+   list-style: none;
+   padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    font-style: 15pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a:hover{
+
+    color: rgb(23, 32, 156); 
+    text-decoration: overline; 
+}
+
+
+img{
+    width:320px;
+    height: 320px;
+    padding-left: 880px;
+
+}
