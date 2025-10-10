@@ -1,0 +1,64 @@
+/* Corpo da página */
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: white;
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    flex-direction: column; /* coloca os elementos em coluna */
+    align-items: center;
+}
+
+/* Frase no topo da tela */
+.titulo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2d3436;
+    margin-top: 40px; /* espaçamento do topo */
+    margin-bottom: 30px; /* espaço entre a frase e o formulário */
+}
+
+/* Container do formulário */
+.form-container {
+    padding: 40px 50px;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 450px; /* aumentei o tamanho total */
+    text-align: center;
+}
+
+/* Campos de entrada */
+input {
+    width: 95%; /* aumentei a largura dos campos */
+    padding: 12px;
+    margin-top: 6px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 15px;
+}
+
+/* Botão */
+button {
+    margin-top: 15px;
+    padding: 12px 25px;
+    border: none;
+    background-color: #0984e3;
+    color: white;
+    font-weight: bold;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #74b9ff;
+}
+
+/* Título dentro do formulário */
+h2 {
+    color: #2d3436;
+    margin-bottom: 20px;
+}
