@@ -9,7 +9,7 @@ document.getElementById('calculatorForm').addEventListener
                             const num2 = parseFloat(document.getElementById('num2').value);
                             
                             //Validando se os números são validos
-                            if (isNaN(num1)  || isNaN(num2)){
+                            if (isNaN(num1)  || isNaN(num2)) {
                                 alert('Por favor, insira números válidos!');
                                 return;
                             }
