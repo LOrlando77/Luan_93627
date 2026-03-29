@@ -1,0 +1,89 @@
+/*Criando o menu estilizando simples*/
+
+nav{
+   background-color: #8d8768;
+   margin: 22px;
+   margin-right: 20px;
+}
+
+ul{
+/*Alinha os itens na horizontal*/
+display: flex;
+}
+
+li{
+
+    /*Liste as bolinhas*/
+   list-style: none;
+   padding: 20px;
+}
+
+a{
+    /*tirar o sublinhado da linha*/
+    text-decoration: none;
+    color: antiquewhite;
+    font-weight: bold;
+    font-size: 17pt;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+a:hover{
+
+    color: rgb(95, 25, 207); 
+    text-decoration: overline; 
+    background-color: rgb(255, 255, 255);
+    
+}
+
+h2{
+
+    padding: 15px;
+    margin-right: 80px;
+    margin-left: 22px;
+    background-color: #8d8768;
+    color: rgb(0, 0, 0);
+    border: 1px solid black;
+}
+
+img{
+    /*Largura*/
+    width:600px;
+    
+    /**/
+    padding-left: 50px;
+
+    /*Altura*/
+    height: 350px;
+}
+
+div{
+    
+    display: flex;
+
+}
+
+p{
+font-size: 20px;    
+margin-right: 70px;
+text-align: justify;
+margin-left: 30px;
+margin-top: 50PX;
+
+}
+
+footer{
+
+    background-color: #F6F7F9 ;
+    margin-left: 22px;
+    margin-right: 80px;
+}
+
+h3{
+
+    padding-top: 20px;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    margin-bottom: 20px;
+    padding-bottom: 13px;
+    /*botton é para baixo*/ 
+}

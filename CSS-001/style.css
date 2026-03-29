@@ -1,0 +1,34 @@
+h1{
+    /*Aplicar cor de texto*/ 
+   color: rgb(49, 77, 54);
+   /*Centralizand o texto*/
+   text-align: center;
+   /*Tipo de Fonte*/
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+   /*Tamanho do texto*/
+   font-size: 25pt;
+   /*Destacar a fonte como negrito*/
+   font-weight: bold;
+   margin-top: 19px;
+}
+
+h2{
+    color: rgb(15, 116, 82);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /*Colocando texto sublinhado*/
+    text-decoration: underline;
+    /*Margem e a distancia da borda da pagina*/
+    margin-left: 20px;
+    /*Plano de fundo*/
+    background-color: rgb(0, 0, 0);
+    /*Padding é o espaçamento entre os objetos*/
+    padding-left: 5px;
+    font-style: oblique; 
+}
+
+
+p{
+    text-align: justify;
+    margin-left: 50px;
+    margin-right: 50px;
+}

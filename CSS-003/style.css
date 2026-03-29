@@ -1,0 +1,26 @@
+.pai{
+     background-color: green;
+     width: 420px;
+     height: 420px;
+     align-items: center;
+     margin: 20px 0;
+}
+
+.fi1{
+background-color: rgb(128, 0, 0);
+     width: 120px;
+     height: 120px;
+   position: relative;
+   left: 140px;
+}
+
+.fi2{
+background-color: rgb(28, 0, 128);
+     width: 120px;
+     height: 120px;
+
+   position: relative;
+   left: 140px;
+   bottom:320px;
+}
+
